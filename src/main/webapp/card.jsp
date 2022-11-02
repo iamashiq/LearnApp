@@ -46,7 +46,7 @@
 
 </center>
 <h6 style="margin:0;color:red">
-<%= rand.nextInt(10000) %>
+<%= rand.nextInt(10000)+" Git test " %>
 </h6>
 
 </body>
