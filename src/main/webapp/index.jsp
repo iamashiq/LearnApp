@@ -1,0 +1,51 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body, h1 {
+	font-family: "Raleway", sans-serif
+}
+
+body, html {
+	height: 100%
+}
+.bgimg {
+	background-image:
+		url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg");
+	background-position: center;
+	background-size: cover;
+	min-height: 100%;
+}
+</style>
+</head>
+<body>
+
+	<div
+		class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+		<div class="w3-display-topleft w3-padding-large w3-xlarge">LearnApp
+		</div>
+		<div class="w3-display-middle">
+
+			<form action="login" method="POST">
+				Username <input name="name" type="text"> <br /> 
+				Password <input name="password" type="password" style="margin-left:5px"> <br /> 
+				<input name="submit" type="submit" value="Log in" style="margin-left:100px">
+			</form>
+
+		</div>
+		<div class="w3-display-bottomleft w3-padding-large">
+			Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+				target="_blank">w3.css</a>
+		</div>
+	</div>
+
+</body>
+</html>
